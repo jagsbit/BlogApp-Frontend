@@ -43,7 +43,7 @@ const Header = () => {
                 <NavLink to="/register" className={linkClass}>Signup</NavLink>
               </>
             )}
-            <NavLink to="/more" className={linkClass}>More</NavLink>
+           
           </div>
 
           <div className="md:hidden">
@@ -73,7 +73,7 @@ const Header = () => {
               <NavLink to="/register" className={linkClass} onClick={() => setIsOpen(false)}>Signup</NavLink>
             </>
           )}
-          <NavLink to="/more" className={linkClass} onClick={() => setIsOpen(false)}>More</NavLink>
+          
         </div>
       )}
     </nav>

@@ -1,7 +1,8 @@
 import axios from "axios";
 import { getToken } from "../auth";
 
-export const BASE_URL='http://blogapp-env.eba-shez52nd.ap-south-1.elasticbeanstalk.com';
+//export const BASE_URL='http://localhost:5000'; // local host 
+export const BASE_URL='https://blog-app-5ht8.onrender.com'; // deployed on render
 
 export const myAxios=axios.create({
     baseURL:BASE_URL
